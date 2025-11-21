@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Discover Places — Tourist Spots</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Discover Places</h1>
+    <p class="subtitle">A small showcase of tourist spots</p>
+    <input id="search" placeholder="Search by name or country..." />
+  </header>
+
+  <main>
+    <section id="cards" class="cards"></section>
+  </main>
+
+  <template id="card-template">
+    <article class="card">
+      <img class="thumb" src="" alt="" />
+      <div class="card-body">
+        <h2 class="title"></h2>
+        <p class="country"></p>
+        <p class="desc"></p>
+      </div>
+    </article>
+  </template>
+
+  <footer class="site-footer">
+    <p>Built with HTML, CSS & JS • Demo for GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
